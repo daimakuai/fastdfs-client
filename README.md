@@ -23,6 +23,16 @@ mvn install:install-file -DgroupId=com.daimakuai -DartifactId=fastdfs-client-jav
 ## 在您的maven项目pom.xml中添加依赖
 
 ```xml
+<!-- release 版本 -->
+<dependency>
+    <groupId>com.daimakuai</groupId>
+    <artifactId>fastdfs-client-java</artifactId>
+    <version>1.0</version>
+</dependency>
+```
+
+```xml
+<!-- 开发版本 -->
 <dependency>
     <groupId>com.daimakuai</groupId>
     <artifactId>fastdfs-client-java</artifactId>
